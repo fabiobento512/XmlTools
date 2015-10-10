@@ -1,0 +1,78 @@
+#########################################################################################
+############################## XmlTools Patch File Example ##############################
+#########################################################################################
+
+########## Comments in patch files begin with '#'
+
+########## You can comment and uncomment commands to see their effect 
+########## in BINACJBOCharacter.xml file
+
+# The following row is always required in a XmlTools patch. 
+# It defines the minimum version of XmlTools executable that it requires.
+@XML_TOOLS Version "2.0"
+
+# This command adds a new XML node (inside of <xml></xml> tags) to all OSD named nodes.
+@ADD_INSIDE_NODES ElementName "OSD" Files "BINACJBOCharacter.xml"
+<xml>
+		<Attack>
+			<Start>0</Start>
+			<End>30</End>
+			<Bones>Pelvis Chest Neck Head LeftShoulder LeftArm LeftWrist LeftFist RightShoulder RightArm RightWrist RightFist</Bones>
+			<Flags>Unblockable</Flags>
+			<Knockback>0</Knockback>
+			<HitPoints>10</HitPoints>
+			<HitType>KnockdownBody</HitType>
+			<HitLength>0</HitLength>
+			<StunLength>0</StunLength>
+			<StaggerLength>0</StaggerLength>
+			<Extents/>
+		</Attack>
+</xml>
+
+# This command removes the nodes inserted in the previous command using ElementName and ParentElementName.
+@REMOVE_NODES ElementName "Attack" ParentElementName "OSD" Files "BINACJBOCharacter.xml"
+
+# This command adds a new XML node (inside of <xml></xml> tags) to the nodes that matches the XPathExpression.
+@ADD_INSIDE_NODES XPathExpression "/Oni/Objects/CHAR/OSD" Files "BINACJBOCharacter.xml"
+<xml>
+		<Attack>
+			<Start>0</Start>
+			<End>30</End>
+			<Bones>Pelvis Chest Neck Head LeftShoulder LeftArm LeftWrist LeftFist RightShoulder RightArm RightWrist RightFist</Bones>
+			<Flags>Unblockable</Flags>
+			<Knockback>0</Knockback>
+			<HitPoints>10</HitPoints>
+			<HitType>KnockdownBody</HitType>
+			<HitLength>0</HitLength>
+			<StunLength>0</StunLength>
+			<StaggerLength>0</StaggerLength>
+			<Extents/>
+		</Attack>
+</xml>
+
+# This command removes the nodes inserted in the previous command using an XPathExpression.
+@REMOVE_NODES XPathExpression "/Oni/Objects/CHAR/OSD/Attack" Files "BINACJBOCharacter.xml"
+
+# This command executes any of the XmlTools commands (see all possible command using XmlTools --help)
+@COMMAND Options "--files 'BINACJBOCharacter.xml' --element-name 'Position' --invert-elements"
+
+# This command executes the javascript inside the (inside of <code></code> tags)
+
+# The current javascript code first gets the element name "CHAR" with an attribute Id=11565
+# then it gets the child element "OSD" and set its Weapon element value to "MyAwesomeOniWeapon"
+@CUSTOM_CODE Files "BINACJBOCharacter.xml"
+<code>
+	var myBuilder = new JSXMLBuilder();
+	myBuilder.load($xmlData);
+
+	var elements = myBuilder.elements;
+ 
+	for (var i = 0; i < elements.length; i++) {
+	if(elements[i].name=="CHAR" && elements[i].attributeString==" Id=\"11565\""){
+		elements[i].childElement("OSD").childElement("Weapon").text="MyAwesomeOniWeapon";
+		break;
+		}
+	}
+	 
+	$xmlData=myBuilder.generateXML(); // update the global variable with the new XML
+</code>

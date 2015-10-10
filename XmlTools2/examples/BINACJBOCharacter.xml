@@ -1,0 +1,6465 @@
+<Oni>
+	<Objects>
+		<CHAR Id="3873">
+			<Header>
+				<Flags />
+				<Position>227.145248 756 -403.65567</Position>
+				<Rotation>0 184.086075 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>IsPlayer</Flags>
+				<Class>k4_L</Class>
+				<Name>A_player</Name>
+				<Weapon>w1_tap</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die>you_lose</Die>
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>None</Type>
+					<PatrolPathId>0</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>RogueKonoko</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Lull</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="3922">
+			<Header>
+				<Flags />
+				<Position>501.63855 756 223.189484</Position>
+				<Rotation>0 357.120178 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>l1</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>1</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="3926">
+			<Header>
+				<Flags />
+				<Position>-37.3426628 756 -491.6369</Position>
+				<Rotation>0 221.15564 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>A_L18</Name>
+				<Weapon>w8_mbo</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>18</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Medium</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="3933">
+			<Header>
+				<Flags />
+				<Position>132.760071 756 247.212509</Position>
+				<Rotation>0 15.3564777 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>l3</Name>
+				<Weapon>w8_mbo</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>3</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Medium</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="3958">
+			<Header>
+				<Flags />
+				<Position>196.638962 756 -9.086177</Position>
+				<Rotation>0 40.0643044 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent NonCombatant</Flags>
+				<Class>bd_2</Class>
+				<Name>n5</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>-20</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>15</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>5</CombatId>
+					<MeleeId>-1</MeleeId>
+					<NeutralId>1</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Neutral</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Lull</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7209">
+			<Header>
+				<Flags />
+				<Position>434.9334 756 -231.2183</Position>
+				<Rotation>0 258.058838 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>l7</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>7</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7212">
+			<Header>
+				<Flags />
+				<Position>333.634979 756 -382.9142</Position>
+				<Rotation>0 170.885239 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>A_L8</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>8</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7221">
+			<Header>
+				<Flags />
+				<Position>8.047889 756 -313.968872</Position>
+				<Rotation>0 111.10257 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>A_L12</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>12</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7228">
+			<Header>
+				<Flags />
+				<Position>25.6273518 756 -279.1674</Position>
+				<Rotation>0 119.283485 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>A_Lbo13</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>13</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7233">
+			<Header>
+				<Flags />
+				<Position>228.093643 756 20.9510841</Position>
+				<Rotation>0 179.743469 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>A_Sbo15</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>None</Type>
+					<PatrolPathId>0</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>High</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7234">
+			<Header>
+				<Flags />
+				<Position>228.657486 756 -0.173419476</Position>
+				<Rotation>0 179.743469 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>A_Sbo14</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>None</Type>
+					<PatrolPathId>0</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>High</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7235">
+			<Header>
+				<Flags />
+				<Position>227.516739 756 20.885685</Position>
+				<Rotation>0 179.743469 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>A_Sbo16</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>None</Type>
+					<PatrolPathId>0</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>12</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>High</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7266">
+			<Header>
+				<Flags />
+				<Position>449.521118 756 30.6618958</Position>
+				<Rotation>0 135.04158 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent NonCombatant</Flags>
+				<Class>bd_2</Class>
+				<Name>A_n17</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>-20</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>16</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>5</CombatId>
+					<MeleeId>-1</MeleeId>
+					<NeutralId>9</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Neutral</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7290">
+			<Header>
+				<Flags />
+				<Position>-59.8743019 756 -399.768982</Position>
+				<Rotation>0 0.439508975 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>A_L19</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>19</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7293">
+			<Header>
+				<Flags />
+				<Position>-34.60334 756 93.25939</Position>
+				<Rotation>0 95.61807 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>A_L20</Name>
+				<Weapon>w1_tap</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>20</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>1</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>25</AmmoPercentage>
+				<Alert>
+					<Initial>Combat</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7295">
+			<Header>
+				<Flags />
+				<Position>-6.362502 756 79.95713</Position>
+				<Rotation>0 95.61807 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>A_L21</Name>
+				<Weapon>w1_tap</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>21</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>50</AmmoPercentage>
+				<Alert>
+					<Initial>Combat</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7308">
+			<Header>
+				<Flags />
+				<Position>64.0541 681 148.629745</Position>
+				<Rotation>296.6574 302.560883 59.89215</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>B_S22</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt>B_S22_run</Hurt>
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>22</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>207</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>1</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7321">
+			<Header>
+				<Flags>Locked</Flags>
+				<Position>22.003334 756 132.236313</Position>
+				<Rotation>0 322.9601 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent NonCombatant</Flags>
+				<Class>thug_neuro_1</Class>
+				<Name>A_T25</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>26</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>5</CombatId>
+					<MeleeId>-1</MeleeId>
+					<NeutralId>15</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Neutral</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7329">
+			<Header>
+				<Flags />
+				<Position>278.8632 681 -387.586151</Position>
+				<Rotation>0 349.627716 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>B_Lbo26</Name>
+				<Weapon>w3_phr</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>None</Type>
+					<PatrolPathId>0</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>75</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7333">
+			<Header>
+				<Flags />
+				<Position>181.788742 681 -393.361542</Position>
+				<Rotation>0 349.627716 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>B_Lbo27</Name>
+				<Weapon>none</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>97</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>1</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>25</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7338">
+			<Header>
+				<Flags />
+				<Position>-4.895431 681 -389.6944</Position>
+				<Rotation>0 10.2411852 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent NonCombatant</Flags>
+				<Class>bd_2</Class>
+				<Name>B_N28</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>-20</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>0</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>6</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Neutral</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7353">
+			<Header>
+				<Flags />
+				<Position>332.7929 606 179.083817</Position>
+				<Rotation>0 157.0583 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>B_S29</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>29</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7358">
+			<Header>
+				<Flags />
+				<Position>335.643677 681 125.508224</Position>
+				<Rotation>0 52.3811646 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>B_L30</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>28</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7361">
+			<Header>
+				<Flags />
+				<Position>-5.66062737 606 95.64748</Position>
+				<Rotation>0 272.65802 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent NonCombatant</Flags>
+				<Class>bdfem_1</Class>
+				<Name>B_N31</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>-20</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>30</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>5</CombatId>
+					<MeleeId>-1</MeleeId>
+					<NeutralId>23</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Neutral</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7367">
+			<Header>
+				<Flags />
+				<Position>44.2138252 531 10.4688931</Position>
+				<Rotation>0 66.02647 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>CopmaleA4</Class>
+				<Name>B_C34</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>34</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>4</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7371">
+			<Header>
+				<Flags />
+				<Position>-25.2910767 531 70.29497</Position>
+				<Rotation>0 66.02647 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>CopmaleA1</Class>
+				<Name>B_C32</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>32</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>4</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7376">
+			<Header>
+				<Flags />
+				<Position>-21.0974369 531 50.1971245</Position>
+				<Rotation>0 66.02647 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>CopmaleA3</Class>
+				<Name>B_C33</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>33</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>4</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7385">
+			<Header>
+				<Flags />
+				<Position>27.2380466 531 -411.10495</Position>
+				<Rotation>0 253.804382 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>B_Sbo35</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>35</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>12</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>2</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7388">
+			<Header>
+				<Flags />
+				<Position>151.94664 531 116.959618</Position>
+				<Rotation>0 235.230042 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>B_S36</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>36</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>2</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7391">
+			<Header>
+				<Flags />
+				<Position>459.213684 531 0.507997155</Position>
+				<Rotation>0 235.901474 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>B_S37</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>37</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>2</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7399">
+			<Header>
+				<Flags />
+				<Position>229.851837 531 23.1037388</Position>
+				<Rotation>0 0 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>B_Sbo38</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>39</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>12</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>2</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7405">
+			<Header>
+				<Flags />
+				<Position>292.693085 606 133.571228</Position>
+				<Rotation>0 182.014313 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>B_Lbo39</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>40</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7407">
+			<Header>
+				<Flags />
+				<Position>163.6997 606 141.527542</Position>
+				<Rotation>0 161.312744 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>B_L41</Name>
+				<Weapon>w1_tap</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>41</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>2</Use>
+						<Drop>1</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7410">
+			<Header>
+				<Flags />
+				<Position>183.227264 -90 -194.548813</Position>
+				<Rotation>0 356.43103 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>griffin_generic</Class>
+				<Name>ZomGrif</Name>
+				<Weapon>w1_tap</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die>grifdies</Die>
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>None</Type>
+					<PatrolPathId>0</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Lull</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7426">
+			<Header>
+				<Flags>Locked</Flags>
+				<Position>110.12101 606 -436.5925</Position>
+				<Rotation>278.0008 315.1506 4.1193033E-07</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>B_S43</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>43</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>1</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>1</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7432">
+			<Header>
+				<Flags />
+				<Position>91.68629 681 4.790379</Position>
+				<Rotation>0 172.225037 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>Shinzom_generic</Class>
+				<Name>ZomShin</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>None</Type>
+					<PatrolPathId>0</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Switzerland</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Lull</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7437">
+			<Header>
+				<Flags />
+				<Position>338.480164 456 -121.213142</Position>
+				<Rotation>180.00032 198.85257 179.999084</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>C_Sbo44</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>44</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7442">
+			<Header>
+				<Flags />
+				<Position>372.101746 456 40.79812</Position>
+				<Rotation>0 179.6179 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>CopmaleA3</Class>
+				<Name>C_C46</Name>
+				<Weapon>w1_tap</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>46</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>2</Use>
+						<Drop>1</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7443">
+			<Header>
+				<Flags />
+				<Position>354.566376 456 42.4008026</Position>
+				<Rotation>197 0.382103026 180.000015</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>CopmaleA4</Class>
+				<Name>C_C47</Name>
+				<Weapon>w1_tap</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>45</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>2</Use>
+						<Drop>1</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7448">
+			<Header>
+				<Flags />
+				<Position>447.2767 456 -137.319855</Position>
+				<Rotation>0 280.089661 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent NonCombatant</Flags>
+				<Class>bdfem_2</Class>
+				<Name>C_N48</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>-20</AdditionalHealth>
+				<Job>
+					<Type>None</Type>
+					<PatrolPathId>0</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>5</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Neutral</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Lull</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7478">
+			<Header>
+				<Flags />
+				<Position>126.507782 420 40.5357132</Position>
+				<Rotation>0 86.98753 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>C_L50</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>47</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Combat</Initial>
+					<Minimal>Combat</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7482">
+			<Header>
+				<Flags />
+				<Position>127.074745 420 27.4937611</Position>
+				<Rotation>0 86.98753 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>C_L51</Name>
+				<Weapon>w3_phr</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>48</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>1</Use>
+						<Drop>1</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>0</AmmoPercentage>
+				<Alert>
+					<Initial>Combat</Initial>
+					<Minimal>Combat</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7497">
+			<Header>
+				<Flags />
+				<Position>-2.811713 420 -430.663269</Position>
+				<Rotation>0 42.64707 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent Spawned</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>C_Sbo52</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>49</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>-1</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7501">
+			<Header>
+				<Flags>Locked</Flags>
+				<Position>57.87403 420 -182.203781</Position>
+				<Rotation>0 89.64752 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent Spawned</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>C_Lbo53</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>52</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Medium</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7503">
+			<Header>
+				<Flags />
+				<Position>401.392456 396 -222.415573</Position>
+				<Rotation>0 40.3041229 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent NonCombatant</Flags>
+				<Class>bd_3</Class>
+				<Name>C_N55</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>-20</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>53</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>33</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Neutral</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7510">
+			<Header>
+				<Flags />
+				<Position>303.6454 396 -130.866913</Position>
+				<Rotation>0 174.575058 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>C_Sbo56</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>56</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7513">
+			<Header>
+				<Flags />
+				<Position>483.345673 396 -120.908844</Position>
+				<Rotation>0 355.304 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>C_S57</Name>
+				<Weapon>w4_psm</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>54</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>25</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7519">
+			<Header>
+				<Flags />
+				<Position>2.76739287 360 -82.41088</Position>
+				<Rotation>0 203.00119 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>C_S58</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>55</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Medium</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7523">
+			<Header>
+				<Flags />
+				<Position>-1.56826568 360 -191.413681</Position>
+				<Rotation>0 342.3229 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>C_S59</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>57</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7526">
+			<Header>
+				<Flags />
+				<Position>472.978058 336 -433.8415</Position>
+				<Rotation>0 306.1824 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent NonCombatant</Flags>
+				<Class>bdfem_2</Class>
+				<Name>C_N60</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>-20</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>58</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>40</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Neutral</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Lull</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7529">
+			<Header>
+				<Flags />
+				<Position>363.392242 336 -297.778778</Position>
+				<Rotation>0 121.313988 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>C_Sbo61</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>60</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7532">
+			<Header>
+				<Flags />
+				<Position>340.422058 336 -333.086151</Position>
+				<Rotation>0 136.533173 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>C_Lbo62</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>59</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7537">
+			<Header>
+				<Flags />
+				<Position>5.61022472 300 -66.1515961</Position>
+				<Rotation>0 2.13530827 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>C_Sbo64</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>62</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7542">
+			<Header>
+				<Flags />
+				<Position>27.2282314 300 35.8681259</Position>
+				<Rotation>0 2.13530827 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>C_Sbo63</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>61</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7544">
+			<Header>
+				<Flags />
+				<Position>53.1485329 300 -327.548126</Position>
+				<Rotation>0 62.22974 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>striker_easy_1</Class>
+				<Name>C_C65</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>63</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7551">
+			<Header>
+				<Flags>Locked</Flags>
+				<Position>-6.109265 300 -164.496735</Position>
+				<Rotation>0 172.236191 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent NonCombatant</Flags>
+				<Class>thug_neuro_3</Class>
+				<Name>C_N66</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>64</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>3</MeleeId>
+					<NeutralId>42</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Neutral</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7555">
+			<Header>
+				<Flags />
+				<Position>441.812225 276 -36.66731</Position>
+				<Rotation>0 117.178528 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>CopmaleA3</Class>
+				<Name>C_C70</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>-30</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>65</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Konoko</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Medium</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7558">
+			<Header>
+				<Flags />
+				<Position>-2.06458044 240 -106.3787</Position>
+				<Rotation>0 298.2401 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>C_L71</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>66</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Medium</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7566">
+			<Header>
+				<Flags>Locked</Flags>
+				<Position>295.4295 240 -392.098938</Position>
+				<Rotation>0 322.411774 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>C_S72</Name>
+				<Weapon>w3_phr</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>68</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7569">
+			<Header>
+				<Flags />
+				<Position>36.78467 240 -384.001831</Position>
+				<Rotation>0 33.47298 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent NonCombatant</Flags>
+				<Class>bd_5</Class>
+				<Name>C_N74</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>-20</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>69</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>-1</CombatId>
+					<MeleeId>-1</MeleeId>
+					<NeutralId>10</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Neutral</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7576">
+			<Header>
+				<Flags />
+				<Position>336.280853 180 -341.994019</Position>
+				<Rotation>0 94.67434 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>CopmaleA3</Class>
+				<Name>D_C70</Name>
+				<Weapon>w3_phr</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>70</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>1</Use>
+						<Drop>1</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>0</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7592">
+			<Header>
+				<Flags />
+				<Position>301.131744 180 -217.267319</Position>
+				<Rotation>0 247.718018 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>D_Sbo71</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>71</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7596">
+			<Header>
+				<Flags />
+				<Position>320.339661 180 -197.970078</Position>
+				<Rotation>0 247.718018 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>D_Sbo72</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>72</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7597">
+			<Header>
+				<Flags />
+				<Position>328.9443 180 -213.975388</Position>
+				<Rotation>0 247.718018 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>D_Sbo73</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>73</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7600">
+			<Header>
+				<Flags />
+				<Position>390.746246 180 -125.9501</Position>
+				<Rotation>0 280.0558 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>D_L74</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>94</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7602">
+			<Header>
+				<Flags />
+				<Position>-13.1352882 120 -31.6896744</Position>
+				<Rotation>0 106.310493 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>D_Sbo75</Name>
+				<Weapon>w3_phr</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>74</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7606">
+			<Header>
+				<Flags>Locked</Flags>
+				<Position>30.4407272 0 125.503754</Position>
+				<Rotation>0 123.543991 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent NonCombatant</Flags>
+				<Class>thug_neuro_5</Class>
+				<Name>D_N76</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>75</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>3</MeleeId>
+					<NeutralId>41</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Neutral</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7613">
+			<Header>
+				<Flags />
+				<Position>156.285965 606 -402.7305</Position>
+				<Rotation>0 14.4776783 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>B_Lbo76</Name>
+				<Weapon>w5_sbg</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>76</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>207</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>1</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7617">
+			<Header>
+				<Flags />
+				<Position>286.244873 606 -403.317719</Position>
+				<Rotation>0 356.796539 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>B_Lbo77</Name>
+				<Weapon>w2_sap</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>77</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>207</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>1</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7629">
+			<Header>
+				<Flags />
+				<Position>54.61314 0 -333.546844</Position>
+				<Rotation>0 136.972717 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>D_S78</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>78</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Low</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7631">
+			<Header>
+				<Flags />
+				<Position>92.56255 0 -318.030457</Position>
+				<Rotation>0 136.972717 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>D_S79</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>79</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Medium</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7635">
+			<Header>
+				<Flags />
+				<Position>409.398376 0 -305.7882</Position>
+				<Rotation>0 292.074158 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>D_L80</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>80</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Medium</Minimal>
+					<JobStart>Lull</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7638">
+			<Header>
+				<Flags />
+				<Position>289.9704 0 -72.2183456</Position>
+				<Rotation>0 205.571991 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>D_Lbo81</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>81</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7643">
+			<Header>
+				<Flags />
+				<Position>173.626175 0 36.94594</Position>
+				<Rotation>0 134.847549 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>D_S82</Name>
+				<Weapon>w3_phr</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>82</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7649">
+			<Header>
+				<Flags />
+				<Position>295.288574 60 7.14880371</Position>
+				<Rotation>0 296.4375 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>CopfemA2</Class>
+				<Name>D_S83</Name>
+				<Weapon>w3_phr</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>83</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>35</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7652">
+			<Header>
+				<Flags />
+				<Position>293.549622 60 -81.6753</Position>
+				<Rotation>0 329.672516 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>D_L84</Name>
+				<Weapon>w1_tap</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>84</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>1</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7655">
+			<Header>
+				<Flags />
+				<Position>-22.8269024 60 77.7636261</Position>
+				<Rotation>0 82.24976 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>D_Lbo85</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>85</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7659">
+			<Header>
+				<Flags />
+				<Position>21.0909023 60 -160.9447</Position>
+				<Rotation>0 97.27289 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>D_Sbo86</Name>
+				<Weapon>none</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>86</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7664">
+			<Header>
+				<Flags />
+				<Position>417.98584 60 -175.537491</Position>
+				<Rotation>0 270.697144 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>D_S87</Name>
+				<Weapon>none</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>87</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7665">
+			<Header>
+				<Flags />
+				<Position>421.155426 60 -193.092636</Position>
+				<Rotation>0 270.697144 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>CopmaleA3</Class>
+				<Name>D_L88</Name>
+				<Weapon>w1_tap</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>88</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>34</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>1</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7672">
+			<Header>
+				<Flags />
+				<Position>368.3339 120 -335.430664</Position>
+				<Rotation>0 358.768 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>D_S89</Name>
+				<Weapon>w8_mbo</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>89</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7675">
+			<Header>
+				<Flags />
+				<Position>45.16015 120 -311.082275</Position>
+				<Rotation>0 109.107155 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>D_S90</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>90</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7677">
+			<Header>
+				<Flags />
+				<Position>-85.43486 120 -284.106232</Position>
+				<Rotation>0 40.6208 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>D_L91</Name>
+				<Weapon>w3_phr</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>91</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Lull</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7680">
+			<Header>
+				<Flags />
+				<Position>-88.57329 120 17.16457</Position>
+				<Rotation>0 139.545563 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>D_Sbo92</Name>
+				<Weapon>w9_scr</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>92</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>12</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7684">
+			<Header>
+				<Flags />
+				<Position>-79.8346939 0 70.71216</Position>
+				<Rotation>0 117.839882 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_blackops_1</Class>
+				<Name>D_Sbo93</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>93</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>1</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7754">
+			<Header>
+				<Flags />
+				<Position>51.4552727 681 -283.230347</Position>
+				<Rotation>0 6.233613 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_1</Class>
+				<Name>B_L95</Name>
+				<Weapon>w3_phr</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>95</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>1</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="7761">
+			<Header>
+				<Flags />
+				<Position>316.930817 606 -234.495468</Position>
+				<Rotation>0 167.711685 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_swat_1</Class>
+				<Name>B_S96</Name>
+				<Weapon>w3_phr</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>96</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>13</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="9695">
+			<Header>
+				<Flags />
+				<Position>231.037384 120 -150.612183</Position>
+				<Rotation>0 45.8513031 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>striker_easy_1</Class>
+				<Name>D_C100</Name>
+				<Weapon />
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>100</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>0</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="9698">
+			<Header>
+				<Flags>Locked</Flags>
+				<Position>195.1952 120 27.781311</Position>
+				<Rotation>0 291.8223 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>TCTF_lite_blackops_1</Class>
+				<Name>D_S101</Name>
+				<Weapon>w2_sap</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>101</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>11</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Medium</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="9852">
+			<Header>
+				<Flags />
+				<Position>385.682281 180 151.52861</Position>
+				<Rotation>0 209.2818 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent NonCombatant</Flags>
+				<Class>bd_2</Class>
+				<Name>new_1</Name>
+				<Weapon>none</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>-20</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>106</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>35</MeleeId>
+					<NeutralId>3</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>Neutral</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+		<CHAR Id="11565">
+			<Header>
+				<Flags />
+				<Position>-7.76479864 537 -38.0006142</Position>
+				<Rotation>0 161.7817 0</Rotation>
+			</Header>
+			<OSD>
+				<Flags>NotInitiallyPresent</Flags>
+				<Class>CopfemA2</Class>
+				<Name>mbo_femcop</Name>
+				<Weapon>w1_tap</Weapon>
+				<Scripts>
+					<Spawn />
+					<Die />
+					<Combat />
+					<Alarm />
+					<Hurt />
+					<Defeated />
+					<OutOfAmmo />
+					<NoPath />
+				</Scripts>
+				<AdditionalHealth>0</AdditionalHealth>
+				<Job>
+					<Type>Patrol</Type>
+					<PatrolPathId>107</PatrolPathId>
+				</Job>
+				<Behaviors>
+					<CombatId>0</CombatId>
+					<MeleeId>35</MeleeId>
+					<NeutralId>0</NeutralId>
+				</Behaviors>
+				<Inventory>
+					<Ammo>
+						<Use>1</Use>
+						<Drop>1</Drop>
+					</Ammo>
+					<EnergyCell>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</EnergyCell>
+					<Hypo>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Hypo>
+					<Shield>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Shield>
+					<Invisibility>
+						<Use>0</Use>
+						<Drop>0</Drop>
+					</Invisibility>
+				</Inventory>
+				<Team>TCTF</Team>
+				<AmmoPercentage>100</AmmoPercentage>
+				<Alert>
+					<Initial>Low</Initial>
+					<Minimal>Lull</Minimal>
+					<JobStart>Low</JobStart>
+					<Investigate>Medium</Investigate>
+				</Alert>
+				<AlarmGroups>0</AlarmGroups>
+				<Pursuit>
+					<StrongUnseen>Look</StrongUnseen>
+					<WeakUnseen>Forget</WeakUnseen>
+					<StrongSeen>Look</StrongSeen>
+					<WeakSeen>Look</WeakSeen>
+					<Lost>ReturnToJob</Lost>
+				</Pursuit>
+			</OSD>
+		</CHAR>
+	</Objects>
+</Oni>
