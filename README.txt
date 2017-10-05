@@ -1,6 +1,6 @@
 Readme.txt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-XmlTools v2.0b
+XmlTools v2.0d
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----------------------------------
@@ -60,6 +60,18 @@ http://wiki.oni2.net
 
 ----------------------------------
 Change Log:
+----------------------------------
+2.0d, 05-10-2017
+-Fixed bug in the processing of javascript files for XML custom processing (some files were not being processed)
+-Some code refactoring to make the code more modular and easier to build (now uses s10k's "shared" libraries for 
+qtcreator projects)
+----------------------------------
+2.0c, 30-10-2016
+-Fixed bug in --update-elements operation
+-Added some exception handling
+-Started migrating some of the source code to C++14
+-Upgraded pugixml to latest 1.7 version
+-Dropped openmp since apple clang doesn't support it, using Qt threads mechanisms now
 ----------------------------------
 2.0b, 13-06-2014
 -Minor code fixes (use of singleton pattern)
