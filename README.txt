@@ -49,7 +49,7 @@ Extract XmlTools folder to any place in your computer. Open it with command line
 Contacts:
 ----------------------------------
 
-Script10k, "faob2@hotmail.com"
+s10k, "faob2@hotmail.com"
 
 Oni Central Forum:
 http://oni.bungie.org
