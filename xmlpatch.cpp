@@ -373,11 +373,6 @@ void XmlPatch::checkAndProcessValidCommands(QTextStream &fileStream){
 
             command=GlobalVars::AppExecutable;
 
-            // Append files if forced to
-            if(!this->forceTargetFilesWildcard.isEmpty()){
-                command+=" --files '"+this->forceTargetFilesWildcard+"' ";
-            }
-
             command+=" "+getPatchParameterValue(line,"Options");
 
             // Add --no-backups and --no-verbose if patch was called with that arguments
@@ -391,6 +386,13 @@ void XmlPatch::checkAndProcessValidCommands(QTextStream &fileStream){
 
             command.replace("'","\""); //replace apostrophe by quotes, to avoid problems
             command.replace("\"\"","'"); // this allow to use '' as ' ('' is transformed in "" and then in ')
+
+            // Append files if forced to
+
+            // This is added at the end so the apostrophe isn't done here (the path can contain it)
+            if(!this->forceTargetFilesWildcard.isEmpty()){
+                command+=" --files \""+this->forceTargetFilesWildcard+"\" ";
+            }
 
             executeCommandOperation(command);
 
