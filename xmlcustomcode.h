@@ -26,14 +26,14 @@ private:
 
     const int numThreads;
     QThreadPool myThreadPool;
-    QMutex mutexIsAvailable;
 
     struct jsCustomCodeEngine{
+        /* No need to delete these... They will stay alive until program quits. */
         QScriptEngine* scriptEngine;
         QScriptValue* jsFunction;
         QScriptValue* getXmlDataFunction;
         QScriptValue* setXmlDataFunction;
-        bool isAvailable;
+        QMutex *mutexForEngine;
     };
 
     QVector<jsCustomCodeEngine> jsScriptEngines;
@@ -43,11 +43,10 @@ private:
     XmlCustomCode& operator=(XmlCustomCode const&);  // assignment operator is private
 
     void displayJsException(QScriptEngine &engine, QScriptValue &engineResult);
-    jsCustomCodeEngine& getAvailableJsEngine();
 
     __attribute__((always_inline)) inline void customCodeUnwinding(const QString &fileName, QString &currXmlFileString,
-    QScriptEngine &engine, clock_t &begin, double elapsed_secs, QScriptValue &engineResult, QScriptValue &jsFunction,
-    QScriptValue &getXmlDataFunction, QScriptValue &setXmlDataFunction, const bool &backupsEnabled, const bool &verboseEnabled){
+                                                                   QScriptEngine &engine, clock_t &begin, double elapsed_secs, QScriptValue &engineResult, QScriptValue &jsFunction,
+                                                                   QScriptValue &getXmlDataFunction, QScriptValue &setXmlDataFunction, const bool &backupsEnabled, const bool &verboseEnabled){
         if(backupsEnabled){
             UtilXmlTools::backupFile(fileName, verboseEnabled);
         }

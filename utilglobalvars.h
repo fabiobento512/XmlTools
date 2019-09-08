@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 namespace GlobalVars{
 
 static const QString AppName = "XmlTools";
-static const QString AppVersion = "2.0e";
+static const QString AppVersion = "2.0f";
 #ifdef Q_OS_WIN
 static const QString AppExecutable=AppName+".exe";
 #else

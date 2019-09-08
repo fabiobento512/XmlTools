@@ -36,7 +36,7 @@ XmlCustomCode::XmlCustomCode(): numThreads(QThread::idealThreadCount())
         // Note the () around the function
         e.getXmlDataFunction = new QScriptValue(e.scriptEngine->evaluate("(function getXmlData() { return $xmlData; })"));
         e.setXmlDataFunction = new QScriptValue(e.scriptEngine->evaluate("(function setXmlData(newXmlData) { $xmlData=newXmlData; })"));
-        e.isAvailable = true;
+        e.mutexForEngine = new QMutex;
 
         // Add echo function so user can debug the code
         QScriptValue echoFunction = e.scriptEngine->newFunction(echo);
@@ -74,7 +74,7 @@ void XmlCustomCode::executeCustomCode(const QString &jsString, const QVector<QSt
     // Single tread if small number of files or number of threads = 1
     if(filesToProcess.size()<=CUSTOM_FILES_PER_THREAD || numThreads == 1){
 
-        jsCustomCodeEngine &jsEngine = getAvailableJsEngine();
+        jsCustomCodeEngine &jsEngine = this->jsScriptEngines.first();
 
         // Process all XmlFiles
         for(int i=0; i<filesToProcess.size(); i++){
@@ -87,15 +87,16 @@ void XmlCustomCode::executeCustomCode(const QString &jsString, const QVector<QSt
 
         QVector<QFuture<void>> executingThreads;
 
-        for(int i=0; i<=filesToProcess.size()-CUSTOM_FILES_PER_THREAD; i+=CUSTOM_FILES_PER_THREAD){
+        for(int i=0, iteration = 0; i<=filesToProcess.size()-CUSTOM_FILES_PER_THREAD; i+=CUSTOM_FILES_PER_THREAD, ++iteration){
 
-            executingThreads <<
-            QtConcurrent::run(&this->myThreadPool, [=]()
+            executingThreads << QtConcurrent::run(&this->myThreadPool, [=]()
             {
-                mutexIsAvailable.lock();
-                jsCustomCodeEngine &jsEngine = getAvailableJsEngine();
-                jsEngine.isAvailable = false;
-                mutexIsAvailable.unlock();
+
+                const int indexJsEngine = iteration % this->numThreads;
+
+                jsCustomCodeEngine &jsEngine = this->jsScriptEngines[indexJsEngine];
+
+                jsEngine.mutexForEngine->lock();
 
                 QString currXmlFileStringThread;
 
@@ -115,9 +116,7 @@ void XmlCustomCode::executeCustomCode(const QString &jsString, const QVector<QSt
                 customCodeUnwinding(filesToProcess.at(i+3),currXmlFileStringThread,*jsEngine.scriptEngine,beginThread,elapsedSecsThread,engineResultThread,
                                     *jsEngine.jsFunction,*jsEngine.getXmlDataFunction,*jsEngine.setXmlDataFunction,backupsEnabled,verboseEnabled);
 
-                mutexIsAvailable.lock();
-                jsEngine.isAvailable = true;
-                mutexIsAvailable.unlock();
+                jsEngine.mutexForEngine->unlock();
             });
         }
 
@@ -130,7 +129,7 @@ void XmlCustomCode::executeCustomCode(const QString &jsString, const QVector<QSt
 
             int alreadyProcessedFiles=(filesToProcess.size()/CUSTOM_FILES_PER_THREAD)*CUSTOM_FILES_PER_THREAD;
 
-            jsCustomCodeEngine &jsEngine = getAvailableJsEngine();
+            jsCustomCodeEngine &jsEngine = this->jsScriptEngines.first();
 
             for(int i=alreadyProcessedFiles; i<filesToProcess.size(); i++){
 
@@ -145,14 +144,4 @@ void XmlCustomCode::displayJsException(QScriptEngine &engine, QScriptValue &engi
     if (engine.hasUncaughtException()) {
         UtilXmlTools::displayErrorMessage("@CUSTOM_CODE","Uncaught js exception (user code) at line " +QString::number(engine.uncaughtExceptionLineNumber()) + ":\n" + engineResult.toString());
     }
-}
-
-XmlCustomCode::jsCustomCodeEngine& XmlCustomCode::getAvailableJsEngine(){
-    for(jsCustomCodeEngine &e : this->jsScriptEngines){
-        if(e.isAvailable){
-            return e;
-        }
-    }
-
-    throw std::runtime_error("Could't find an available js engine for custom command.");
 }
