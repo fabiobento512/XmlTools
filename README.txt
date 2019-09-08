@@ -1,6 +1,6 @@
 Readme.txt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-XmlTools v2.0e
+XmlTools v2.0f
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----------------------------------
@@ -60,6 +60,9 @@ http://wiki.oni2.net
 
 ----------------------------------
 Change Log:
+----------------------------------
+2.0f, 08-09-2019
+-Fixed a deadlock in custom js code
 ----------------------------------
 2.0e, 16-02-2019
 -Fixed bug in the processing of patch files when the target XML contained an apostrophe (') in the path
