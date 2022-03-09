@@ -1,0 +1,112 @@
+name: XmlTools Build
+on: [push]
+jobs:
+  Build-windows:
+    runs-on: windows-2022
+    steps:
+      - name: Check out XmlTools code
+        uses: actions/checkout@v3
+        with:
+          path: 'XmlTools'
+          # fetch-depth: 0
+      - name: Check out CommonLibs
+        uses: actions/checkout@v3
+        with:
+          repository: fabiobento512/CommonLibs
+          path: 'CommonLibs'
+      - name: Check out CommonUtils
+        uses: actions/checkout@v3
+        with:
+          repository: fabiobento512/CommonUtils
+          path: 'CommonUtils'
+      - name: Download Qt SDK and XmlTools binaries
+        run: |
+         Invoke-WebRequest http://script10k.oni2.net/files/Qt5.7.1.7z -OutFile Qt5.7.1.7z
+         Invoke-WebRequest http://script10k.oni2.net/files/XmlToolsBinaries.7z -OutFile XmlToolsBinaries.7z
+         7z.exe x -mmt=4 Qt5.7.1.7z -o"Qt5.7.1"
+         7z.exe x -mmt=4 XmlToolsBinaries.7z -o"XmlToolsBinaries"
+      - name: Set Enviroments variables for SDK
+        run: |
+         # https://stackoverflow.com/a/64831469
+         echo "${{ github.workspace }}\Qt5.7.1\5.7\mingw53_32\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+         echo "${{ github.workspace }}\Qt5.7.1\Tools\mingw530_32\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+      - name: Compile code
+        run: |
+         mkdir output
+         cd output
+         qmake ../${{ github.event.repository.name }}/XmlTools.pro "CONFIG+=release"
+         mingw32-make -j
+         cd ..
+      - name: Copy executable to final folder with its dlls and readme
+        run: |
+         mkdir distributable
+         cp output/release/XmlTools.exe distributable
+         cp XmlToolsBinaries/*.* distributable
+         cp ${{ github.event.repository.name }}/README.txt distributable
+      - name: Archive the final folder
+        uses: actions/upload-artifact@v3
+        with:
+          name: XmlTools-windows
+          path: distributable
+  Build-macos:
+    runs-on: macos-10.15
+    steps:
+      - name: Check out XmlTools code
+        uses: actions/checkout@v3
+        with:
+          path: 'XmlTools'
+      - name: Check out CommonLibs
+        uses: actions/checkout@v3
+        with:
+          repository: fabiobento512/CommonLibs
+          path: 'CommonLibs'
+      - name: Check out CommonUtils
+        uses: actions/checkout@v3
+        with:
+          repository: fabiobento512/CommonUtils
+          path: 'CommonUtils'
+      # - name: Download and Install SDK 10.15 officially supported by Qt5
+        # run: |
+         # # This is not working for some reason...
+         # # SDK from here: https://github.com/phracker/MacOSX-SDKs
+         # curl -o MacOSX10.15.sdk.tar.xz 'http://script10k.oni2.net/files/MacOSX10.15.sdk.tar.xz'
+         # tar -xf MacOSX10.15.sdk.tar.xz
+         # # Update env variable for SKD, read by Qt SDK
+         # export SDKROOT=${{ github.workspace }}/MacOSX10.15.sdk
+      - name: Download and Install Qt SDK
+        # https://superuser.com/a/422785
+        run: |
+         brew install qt@5
+         brew link qt@5
+      - name: Compile code
+        run: |
+         mkdir output
+         cd output
+         qmake ../${{ github.event.repository.name }}/XmlTools.pro "CONFIG+=release"
+         make -j
+         cd ..
+      - name: Copy executable to final folder with its dependencies and readme
+        run: |
+         mkdir output/Frameworks
+         # find / -type f -name "QtCore"
+         cp /usr/local/opt/qt@5/lib/QtCore.framework/Versions/5/QtCore output/Frameworks
+         cp /usr/local/opt/qt@5/lib/QtScript.framework/Versions/5/QtScript output/Frameworks
+         # Check current dependencies
+         otool -L output/XmlTools
+         otool -L output/Frameworks/QtScript
+         # Fix dependencies location
+         install_name_tool -change /usr/local/Cellar/qt@5/5.15.2_1/lib/QtCore.framework/Versions/5/QtCore @executable_path/Frameworks/QtCore output/Frameworks/QtScript
+         install_name_tool -change /usr/local/opt/qt@5/lib/QtCore.framework/Versions/5/QtCore @executable_path/Frameworks/QtCore output/XmlTools
+         install_name_tool -change /usr/local/opt/qt@5/lib/QtScript.framework/Versions/5/QtScript @executable_path/Frameworks/QtScript output/XmlTools
+         # Show updated dependencies
+         otool -L output/XmlTools
+         otool -L output/Frameworks/QtScript
+         mkdir distributable
+         cp output/XmlTools distributable
+         cp ${{ github.event.repository.name }}/README.txt distributable
+         cp -R output/Frameworks distributable
+      - name: Archive the final folder
+        uses: actions/upload-artifact@v3
+        with:
+          name: XmlTools-macos
+          path: distributable
