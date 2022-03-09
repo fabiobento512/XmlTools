@@ -1,6 +1,6 @@
 Readme.txt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-XmlTools v2.0f
+XmlTools v2.0g
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----------------------------------
@@ -49,7 +49,7 @@ Extract XmlTools folder to any place in your computer. Open it with command line
 Contacts:
 ----------------------------------
 
-s10k, "faob2@hotmail.com"
+s10k
 
 Oni Central Forum:
 http://oni.bungie.org
@@ -58,8 +58,14 @@ http://oni.bungie.org
 Oni Wiki:
 http://wiki.oni2.net
 
+Oni Discord (get invite at the forum)
+
 ----------------------------------
 Change Log:
+----------------------------------
+2.0g, 09-03-2022
+-Fixed bug on add-values when the element is empty (the application was adding a space)
+-Qt libraries on macOS upgraded to 5.15.2 (minimum compatible macOS: macOS High Sierra)
 ----------------------------------
 2.0f, 08-09-2019
 -Fixed a deadlock in custom js code
