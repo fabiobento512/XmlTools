@@ -46,14 +46,19 @@ void XmlTools::addValues(QString newValues){
 
             for(int j=0; j<elements.size(); j++){
 
-                currValuesList=UtilXmlTools::qStringListFromSpacedString(QSTR_TO_CSTR(elements[j].text().as_string())); // convert each element in a list (uses space as separator)
+                currValuesList=UtilXmlTools::qStringListFromSpacedString(elements[j].text().as_string()); // convert each element in a list (uses space as separator)
 
                 for(int k=0; k<newValuesList.size(); k++){
                     if(currValuesList.contains(newValuesList[k])){ // If the current element already contains this value proceed to the next
                         continue;
                     }
 
-                    elements[j].text() = QSTR_TO_CSTR( QString(elements[j].text().as_string()) + " " + newValuesList[k] ); // If it doesn't exists yet let's add it
+                    // // If it doesn't exists yet let's add it
+                    if(currValuesList.isEmpty()) {
+                        elements[j].text() = QSTR_TO_TEMPORARY_CSTR(newValuesList[k]);
+                    } else {
+                        elements[j].text() = QSTR_TO_TEMPORARY_CSTR(QString(elements[j].text().as_string()) + " " + newValuesList[k]);
+                    }
                 }
             }
 
@@ -91,7 +96,7 @@ void XmlTools::removeValues(QString valuesToRemove){
             valuesToRemoveList=UtilXmlTools::qStringListFromSpacedString(valuesToRemove);
 
             for(int j=0; j<elements.size(); j++){ // O(3)... Optimization may be necessary.
-                currValuesList=UtilXmlTools::qStringListFromSpacedString(QSTR_TO_CSTR(elements[j].text().as_string())); // convert each element in a list (uses space as separator)
+                currValuesList=UtilXmlTools::qStringListFromSpacedString(QString(elements[j].text().as_string())); // convert each element in a list (uses space as separator)
 
                 for(int k=0; k<currValuesList.size(); k++){
                     for(int m=0; m<valuesToRemoveList.size(); m++){
@@ -140,7 +145,7 @@ void XmlTools::replaceValue(QString oldValue, QString newValue){
             }
 
             for(int j=0; j<elements.size(); j++){
-                currValuesList=UtilXmlTools::qStringListFromSpacedString(QSTR_TO_CSTR(elements[j].text().as_string())); // convert each element in a list (uses space as separator)
+                currValuesList=UtilXmlTools::qStringListFromSpacedString(QString(elements[j].text().as_string())); // convert each element in a list (uses space as separator)
 
                 for(int k=0; k<currValuesList.size(); k++){
                     if(currValuesList[k]==oldValue){ // Found a match with the old value?
@@ -188,7 +193,7 @@ void XmlTools::replaceAll(QString value, QString valuePositions){
             // Let's start the override
             for(int j=0; j<elements.size(); j++){
                 if(valuePositions!=""){
-                    elements[j].text()=replaceSpecificPositions(value, QSTR_TO_CSTR(elements[j].text().as_string()),valuePositions).toUtf8().constData();
+                    elements[j].text()= QSTR_TO_TEMPORARY_CSTR(replaceSpecificPositions(value, QString(elements[j].text().as_string()), valuePositions));
                 }
                 else{
                     elements[j].text()=value.toUtf8().constData();
@@ -231,13 +236,13 @@ void XmlTools::updateElements(QString diffBetweenOldAndNewValue){
 
             if(elements.size() > 0){
 
-                lastXmlValue=MultiDimVar(QSTR_TO_CSTR(elements[0].text().as_string())); // the lastXmlValue will begin to be the first one of the node
+                lastXmlValue=MultiDimVar(QString(elements[0].text().as_string())); // the lastXmlValue will begin to be the first one of the node
                 newXmlValue=MultiDimVar::sub(lastXmlValue, MultiDimVar(diffBetweenOldAndNewValue));
                 elements[0].text() = newXmlValue.toString().toUtf8().constData(); // update the first element with the new one already
 
                 // If we have more than 1 element
                 if(elements.size()>1){
-                    currXmlValue=MultiDimVar(QSTR_TO_CSTR(elements[1].text().as_string())); // the currXmlValue will begin to be the second one of the node
+                    currXmlValue=MultiDimVar(QString(elements[1].text().as_string())); // the currXmlValue will begin to be the second one of the node
 
                     // Let's start the node update
                     for(int j=1; j<elements.size()-1; j++){ // We start in 1 because the 0 is already saved in lastXmlValue // -1 because we will also work with the next one in the current
@@ -245,7 +250,7 @@ void XmlTools::updateElements(QString diffBetweenOldAndNewValue){
                         newXmlValue=MultiDimVar::sum(newXmlValue,MultiDimVar::sub(currXmlValue,lastXmlValue));
                         elements[j].text() = newXmlValue.toString().toUtf8().constData(); // update element with the new value
                         lastXmlValue=currXmlValue;
-                        currXmlValue=MultiDimVar(QSTR_TO_CSTR(elements[j+1].text().as_string()));
+                        currXmlValue=MultiDimVar(QString(elements[j+1].text().as_string()));
 
                     }
 
@@ -287,7 +292,7 @@ void XmlTools::invertElements(){
 
             // Read all elements and save to the list
             for(int j=elements.size()-1; j>=0; j--){
-                invertedElements << QSTR_TO_CSTR(elements[j].text().as_string());
+                invertedElements << QString(elements[j].text().as_string());
             }
 
             // Override the tree with the inverted order
